@@ -1,0 +1,371 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Modificado para incluir información extensa sobre iPhone con logo ajustado, imágenes en características y texto en negrita
+-->
+<html>
+	<head>
+		<title>iPhone - La Revolución Tecnológica de Apple</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<!-- Estilos personalizados para hacer la plantilla más grande, espaciosa y con texto más negrita -->
+		<style>
+			/* Aumentar el ancho máximo para aprovechar mejor pantallas grandes */
+			.container {
+				max-width: 90% !important;
+			}
+			#wrapper {
+				max-width: 1200px !important;
+			}
+			/* Más espaciado entre secciones para que el contenido extenso respire */
+			section.main {
+				padding: 6rem 0 4rem 0 !important;
+			}
+			
+			/* --- TEXTO MÁS NEGRITA (BOLD) --- */
+			body {
+				font-weight: 500 !important; /* Base general más gruesa */
+			}
+			/* Mejorar la legibilidad de párrafos largos haciéndolos más negritas */
+			.content p {
+				font-size: 1.1rem;
+				line-height: 1.8;
+				margin-bottom: 1.5rem;
+				font-weight: 600 !important; /* Párrafos en seminegrita/negrita */
+			}
+			/* Títulos mucho más negritas */
+			h1, h2, h3, h4, h5, h6 {
+				font-weight: 800 !important;
+			}
+			/* Navegación más negrita */
+			#nav a {
+				font-weight: 700 !important;
+			}
+			/* Características: títulos y texto más negritas */
+			.features li h3 {
+				font-weight: 800 !important;
+			}
+			.features li p {
+				font-weight: 500 !important;
+			}
+			/* Tabla de especificaciones más legible y negrita */
+			.specs-table {
+				width: 100%;
+				border-collapse: collapse;
+				margin-top: 2rem;
+			}
+			.specs-table th, .specs-table td {
+				padding: 1rem;
+				border-bottom: 1px solid rgba(255,255,255,0.2);
+				text-align: left;
+				font-weight: 600 !important;
+			}
+			.specs-table th {
+				width: 30%;
+				color: #8cd9a7; /* Color de acento de Stellar */
+				font-weight: 800 !important;
+			}
+			/* Sección de modelos/estadísticas más negrita */
+			.statistics strong {
+				font-weight: 800 !important;
+			}
+			.statistics li {
+				font-weight: 600 !important;
+			}
+			
+			/* Hacer las tarjetas de características más altas y espaciadas */
+			.features li {
+				margin-bottom: 2rem;
+				padding: 2rem;
+				background: rgba(255,255,255,0.05);
+				border-radius: 12px;
+				transition: background 0.3s ease;
+			}
+			.features li:hover {
+				background: rgba(255,255,255,0.08);
+			}
+			
+			/* --- ESTILOS PARA LAS IMÁGENES DE CARACTERÍSTICAS --- */
+			.features li .feature-img {
+				width: 100%;
+				height: 200px;
+				object-fit: cover;
+				border-radius: 8px;
+				margin-bottom: 1.5rem;
+				box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
+			}
+			.features li .feature-img:hover {
+				transform: translateY(-5px);
+				box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+			}
+			
+			/* --- AJUSTE DEL LOGO (Más pequeño y controlado) --- */
+			header .logo {
+				display: inline-block;
+				line-height: 1;
+				margin-bottom: 1rem;
+			}
+			header .logo svg, 
+			header .logo img {
+				width: 150px !important;       /* Tamaño pequeño fijo */
+				height: 150px !important;      /* Mantiene la proporción */
+				max-width: 40px !important;
+				vertical-align: middle;
+				display: inline-block;
+				fill: currentColor;           /* Hereda el color del texto */
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<!-- Logo SVG en línea: No requiere archivo externo, se ajusta perfectamente -->
+						<span class="logo">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+								<path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.5-133.3c18.4-22.2 30.8-53.1 27.3-84.2-26.5 1.1-58.6 17.7-77.6 39.9-16.9 19.7-31.7 51.1-27.7 80.5 29.6 2.3 59.8-14.5 78-36.2z"/>
+							</svg>
+						</span>
+						<h1>iPhone</h1>
+						<p>La revolución tecnológica en la palma de tu mano.<br />
+						Descubre la historia, innovación y el futuro de los dispositivos móviles de <a href="https://www.apple.com">Apple</a>.</p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introducción</a></li>
+							<li><a href="#historia">Historia y Evolución</a></li>
+							<li><a href="#caracteristicas">Características</a></li>
+							<li><a href="#modelos">Modelos Recientes</a></li>
+							<li><a href="#especificaciones">Especificaciones</a></li>
+							<li><a href="#cta">Explorar Ecosistema</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Más que un teléfono, una extensión de ti</h2>
+										</header>
+										<p>El iPhone es una línea de teléfonos inteligentes de alta gama diseñada y comercializada por Apple Inc. Desde su presentación histórica el 9 de enero de 2007 por el cofundador Steve Jobs, el iPhone ha redefinido por completo la industria de la telefonía móvil, combinando un teléfono, un iPod y un comunicador de Internet en un solo dispositivo con una interfaz táctil revolucionaria.</p>
+										<p>A lo largo de más de una década, el iPhone ha evolucionado para convertirse en el pilar del ecosistema digital de millones de personas. Con su sistema operativo iOS, conocido por su fluidez, seguridad y privacidad, el iPhone no solo es una herramienta de comunicación, sino un centro creativo, un asistente personal impulsado por inteligencia artificial y una puerta de entrada a un ecosistema integrado que incluye el Apple Watch, AirPods, Mac y iPad.</p>
+										<ul class="actions">
+											<li><a href="#historia" class="button">Descubrir su Historia</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/pic01.jpg" alt="iPhone Diseño" /></span>
+								</div>
+							</section>
+
+						<!-- Historia -->
+							<section id="historia" class="main special">
+								<header class="major">
+									<h2>Historia y Evolución (2007 - 2026)</h2>
+									<p>Un recorrido por las generaciones que cambiaron el mundo de la tecnología para siempre.</p>
+								</header>
+								<div class="content">
+									<p><strong>2007: El inicio de una era.</strong> Steve Jobs subió al escenario y presentó el primer iPhone. Con una pantalla multitáctil de 3.5 pulgadas y sin teclado físico, estableció el estándar para todos los smartphones modernos.</p>
+									<p><strong>2008-2010: La App Store y el Retina Display.</strong> El iPhone 3G trajo la App Store, creando una nueva economía digital. El iPhone 4 introdujo el diseño de vidrio y acero inoxidable, junto con la pantalla Retina, que duplicó la densidad de píxeles, haciendo que el texto y las imágenes fueran indistinguibles de la realidad.</p>
+									<p><strong>2014-2017: Pantallas grandes y Face ID.</strong> Con el iPhone 6 y 6 Plus, Apple respondió a la demanda de pantallas más grandes. En 2017, el iPhone X eliminó el botón de inicio, introduciendo el "notch", Face ID y el desbloqueo facial como estándar de seguridad biométrica.</p>
+									<p><strong>2020-2026: La era del 5G, el Titanio y la Inteligencia Artificial.</strong> Desde la integración del 5G, la transición a los chips Apple Silicon (serie A), la introducción de la "Dynamic Island", el cambio a USB-C y el uso de titanio aeroespacial en los modelos Pro, hasta la integración profunda de "Apple Intelligence" en el sistema operativo, el iPhone sigue marcando el ritmo de la innovación móvil.</p>
+								</div>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="#caracteristicas" class="button">Ver Características</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Características -->
+							<section id="caracteristicas" class="main special">
+								<header class="major">
+									<h2>Innovación en cada detalle</h2>
+									<p>La combinación de hardware de vanguardia y software optimizado crea una experiencia sin igual.</p>
+								</header>
+								<ul class="features">
+									<li>
+										<img src="pic02.jpg" alt="Chip Apple Silicon" class="feature-img" />
+										<h3>Chips de la serie A</h3>
+										<p>Los procesadores diseñados por Apple (como el A17 Pro y A18) ofrecen un rendimiento líder en la industria, con una eficiencia energética que permite una duración de batería excepcional y capacidades de procesamiento de máquina (Neural Engine) para tareas de inteligencia artificial en tiempo real.</p>
+									</li>
+									<li>
+										<img src="pic03.jpg" alt="Sistema de Cámaras Pro" class="feature-img" />
+										<h3>Sistema de Cámaras Pro</h3>
+										<p>Sensores de alta resolución, estabilización óptica de sensor, zoom óptico de hasta 5x y el formato ProRAW. El iPhone es la cámara elegida por cineastas y fotógrafos profesionales, capaz de grabar video en 4K a 60 fps con calidad de estudio.</p>
+									</li>
+									<li>
+										<img src="pic04.jpg" alt="Privacidad y Seguridad" class="feature-img" />
+										<h3>Privacidad y Seguridad</h3>
+										<p>Funciones como Face ID, el Secure Enclave, el bloqueo de seguimiento de aplicaciones y el cifrado de extremo a extremo en iMessage garantizan que tus datos personales permanezcan bajo tu control absoluto.</p>
+									</li>
+									<li>
+										<img src="pic05.jpg" alt="Ecosistema Integrado" class="feature-img" />
+										<h3>Ecosistema Integrado</h3>
+										<p>La continuidad entre dispositivos es mágica. Copia en tu iPhone y pega en tu Mac, responde llamadas desde tu iPad o usa tu Apple Watch para desbloquear tu teléfono. Todo funciona en perfecta armonía a través de iCloud.</p>
+									</li>
+									<li>
+										<img src="https://images.unsplash.com/photo-1616348436168-de43ad0db179?auto=format&fit=crop&w=600&q=80" alt="Materiales Premium" class="feature-img" />
+										<h3>Materiales Premium</h3>
+										<p>Construcción con Ceramic Shield en la parte frontal, más resistente que cualquier vidrio de smartphone, y marcos de titanio de grado aeroespacial en los modelos Pro, que ofrecen una relación resistencia-peso inigualable.</p>
+									</li>
+									<li>
+										<img src="pic06.jpg" alt="Duración de Batería" class="feature-img" />
+										<h3>Duración de Batería</h3>
+										<p>Optimización profunda entre hardware y software que permite hasta 29 horas de reproducción de video, junto con carga rápida y la comodidad de MagSafe para accesorios inalámbricos.</p>
+									</li>
+								</ul>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="#modelos" class="button">Explorar Modelos</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Modelos Recientes -->
+							<section id="modelos" class="main special">
+								<header class="major">
+									<h2>La Familia iPhone Actual</h2>
+									<p>Una opción diseñada para cada tipo de usuario, sin comprometer la experiencia central de iOS.</p>
+								</header>
+								<ul class="statistics">
+									<li class="style1">
+										<span class="icon solid fa-mobile-alt"></span>
+										<strong>iPhone 16 Pro Max</strong> La máxima expresión de potencia, con pantalla de 6.9", chip A18 Pro y sistema de cámaras de 48MP con zoom óptico avanzado.
+									</li>
+									<li class="style2">
+										<span class="icon solid fa-mobile"></span>
+										<strong>iPhone 16</strong> El equilibrio perfecto. Colorido, potente con el chip A18, Dynamic Island y el nuevo botón de Acción personalizable.
+									</li>
+									<li class="style3">
+										<span class="icon solid fa-leaf"></span>
+										<strong>iPhone SE</strong> La puerta de entrada al ecosistema. Diseño clásico con botón de inicio, pero con el potente chip de última generación y 5G a un precio accesible.
+									</li>
+									<li class="style4">
+										<span class="icon solid fa-infinity"></span>
+										<strong>iOS 18/19</strong> El alma del dispositivo. Personalización sin precedentes, funciones de Apple Intelligence generativa y una privacidad reforzada.
+									</li>
+								</ul>
+								<p class="content" style="margin-top: 2rem;">Cada modelo, independientemente de su gama, comparte el compromiso de Apple con la sostenibilidad. Los iPhone modernos utilizan un 100% de cobalto reciclado en la batería, tierras raras recicladas en los imanes y están empaquetados en fibras 100% de base forestal, eliminando el plástico de la caja.</p>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="#especificaciones" class="button">Ver Especificaciones</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Especificaciones Técnicas -->
+							<section id="especificaciones" class="main">
+								<header class="major">
+									<h2>Especificaciones Técnicas Detalladas</h2>
+									<p>Basado en la arquitectura de los modelos Pro de última generación.</p>
+								</header>
+								<div class="content">
+									<table class="specs-table">
+										<tr>
+											<th>Pantalla</th>
+											<td>Super Retina XDR display con tecnología ProMotion (120Hz), siempre activa, brillo máximo de 2000 nits en exteriores y resolución de 2868 x 1320 píxeles.</td>
+										</tr>
+										<tr>
+											<th>Procesador</th>
+											<td>Chip A18 Pro con CPU de 6 núcleos (2 de rendimiento y 4 de eficiencia), GPU de 6 núcleos y Neural Engine de 16 núcleos.</td>
+										</tr>
+										<tr>
+											<th>Cámaras Traseras</th>
+											<td>Sistema Pro de 48 MP (Fusión, 24 mm, apertura ƒ/1.78), Ultra gran angular de 48 MP (13 mm, ƒ/2.2) y Teleobjetivo de 12 MP con zoom óptico 5x (120 mm, ƒ/2.8).</td>
+										</tr>
+										<tr>
+											<th>Cámara Frontal</th>
+											<td>TrueDepth de 12 MP con apertura ƒ/1.9, enfoque automático y soporte para video 4K.</td>
+										</tr>
+										<tr>
+											<th>Almacenamiento</th>
+											<td>Opciones de 256 GB, 512 GB y 1 TB para manejar bibliotecas de video ProRes y aplicaciones de alta demanda.</td>
+										</tr>
+										<tr>
+											<th>Conectividad</th>
+											<td>5G avanzado, Wi-Fi 7, Bluetooth 5.3, chip de banda ultraancha (UWB) de segunda generación y puerto USB-C con soporte para USB 3 (hasta 10 Gb/s).</td>
+										</tr>
+										<tr>
+											<th>Resistencia</th>
+											<td>Certificación IP68 (resistencia al agua hasta 6 metros por 30 minutos) y parte trasera de vidrio texturizado mate con marco de titanio.</td>
+										</tr>
+									</table>
+								</div>
+								<footer class="major" style="margin-top: 3rem;">
+									<ul class="actions special">
+										<li><a href="#cta" class="button">Dar el Siguiente Paso</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Get Started / CTA -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Únete al ecosistema Apple</h2>
+									<p>El iPhone es solo el comienzo. Descubre cómo se integra con el Apple Watch para cuidar tu salud, <br/>los AirPods para un audio espacial inmersivo y el Mac para un flujo de trabajo sin interrupciones.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://www.apple.com/iphone/" class="button primary" target="_blank">Visitar Sitio Oficial de Apple</a></li>
+										<li><a href="#intro" class="button">Volver al Inicio</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Acerca de esta plantilla</h2>
+							<p>Esta página es una adaptación extensa y personalizada de la plantilla "Stellar" de HTML5 UP, diseñada específicamente para presentar información detallada, estructurada y visualmente atractiva sobre la línea de productos iPhone de Apple. El diseño prioriza la legibilidad y la jerarquía visual.</p>
+						</section>
+						<section>
+							<h2>Contacto y Recursos</h2>
+							<dl class="alt">
+								<dt>Sitio Oficial</dt>
+								<dd><a href="https://www.apple.com" target="_blank">www.apple.com</a></dd>
+								<dt>Soporte Técnico</dt>
+								<dd><a href="https://support.apple.com" target="_blank">support.apple.com</a></dd>
+								<dt>Correo de Consulta</dt>
+								<dd><a href="mailto:info@ejemplo-iphone.tld">info@ejemplo-iphone.tld</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-apple alt"><span class="label">Apple</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; 2026 Información Tecnológica. Diseño base: <a href="https://html5up.net">HTML5 UP</a>. Adaptado con fines informativos.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
